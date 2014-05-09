@@ -24,13 +24,16 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+
 .left{
 	display: block;
 	float:left;
 	position: fixed;
 	background-color:red;
 	width:126px;
-	height: 421px
+	height: 421px;
+	line-height: 50px;
+	text-align: right;
 }
 
 .middle{
@@ -56,6 +59,7 @@ time, mark, audio, video {
 }
 .main{
 	margin:0 auto;
+	max-width: 550px;
 }
 
 ul:nth-child(2) {
